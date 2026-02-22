@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heal Your Mind · Apoyo emocional</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(145deg, #1b3b2b 0%, #2d6a4f 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    /* Tarjetas y secciones */
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(5px);
+      border-radius: 40px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 20px 40px rgba(0, 20, 10, 0.4);
+      border: 2px solid #7ac9a5;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #1b4d3e;
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #1b4d3e;
+      margin-bottom: 25px;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      color: #1b4d3e;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      color: #2d3f36;
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+
+    .highlight {
+      color: #0f6442;
+      font-weight: 600;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1f4d3a;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding: 16px 40px;
+      border-radius: 60px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(26, 83, 58, 0.4);
+      border: 2px solid #9fdac2;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #143b2c;
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(17, 70, 46, 0.5);
+    }
+
+    .button-small {
+      font-size: 1.2rem;
+      padding: 12px 30px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .grid-item {
+      background: #ecfff5;
+      border-radius: 30px;
+      padding: 30px 20px;
+      text-align: center;
+      border: 2px solid #6abf9c;
+      transition: 0.2s;
+    }
+
+    .grid-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(48, 119, 85, 0.3);
+    }
+
+    .grid-item h4 {
+      font-size: 2rem;
+      color: #1b4d3e;
+      margin-bottom: 15px;
+    }
+
+    .grid-item p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+      color: #2b5b45;
+    }
+
+    .footer-note {
+      text-align: center;
+      background: #dcf2e9;
+      border-radius: 60px;
+      padding: 30px;
+      margin-top: 20px;
+      border: 2px solid #5fa383;
+    }
+
+    .footer-note p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .back-link {
+      color: #1b4d3e;
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid #1b4d3e;
+      padding-bottom: 3px;
+    }
+
+    .back-link:hover {
+      color: #0e523a;
+    }
+
+    /* Responsive */
+    @media (max-width: 800px) {
+      h1 { font-size: 2.8rem; }
+      h2 { font-size: 2rem; }
+      .grid-3 { grid-template-columns: 1fr; }
+      .card { padding: 30px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- PRIMERA IMAGEN: NO ESTÁS SOLO -->
+    <div class="card">
+      <h1>NO ESTÁS SOLO</h1>
+      <p style="font-size: 1.5rem;">
+        estamos aquí para apoyarte... escucharte... aconsejarte y brindarte lo que necesites para afrontar esta situación juntos...
+      </p>
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="https://healyourmind.onrender.com/" class="button">¡Comenzemos!</a>
+      </div>
+    </div>
+
+    <!-- SEGUNDA IMAGEN: EXPLORA HEALYOURMIND -->
+    <div class="card">
+      <h2>Explora "Healyourmind"</h2>
+      <p>
+        tu pagina web dedicada para comprender y abordar la depresión. Nuestra misión es brindar información y apoyo integral, empoderando a familias e individuos para afrontar eficazmente los desafíos de salud mental.
+        <span class="highlight">"Sanando tu mente"</span>
+      </p>
+      <p style="font-size: 1.6rem; font-weight: 500; text-align: center; margin-top: 20px;">
+        Abordemos esto juntos...
+      </p>
+    </div>
+
+    <!-- TERCERA IMAGEN: SECCIÓN CON TRES TARJETAS -->
+    <div class="card">
+      <h2 style="text-align: center;">Abordemos esto juntos...</h2>
+      <div class="grid-3">
+        <!-- Tarjeta 1: Heal AI (antes Yana AI) -->
+        <div class="grid-item">
+          <h4>Heal AI</h4>
+          <p>¿Necesitas desahogarte... sentirte escuchado... y acompañado? Pues aquí está Heal AI, tu asistente y amigo...</p>
+          <a href="https://healyourmind.onrender.com/" class="button button-small">Empezar</a>
+        </div>
+        <!-- Tarjeta 2: ¿Qué deberías hacer? -->
+        <div class="grid-item">
+          <h4>¿Qué deberías hacer?</h4>
+          <p>Cuando te sientas mal, dale al botón de empezar, recuérdalo, te apoyaremos. Ahí encontrarás una pequeña guía.</p>
+          <a href="https://healyourmind.onrender.com/" class="button button-small">Empezar</a>
+        </div>
+        <!-- Tarjeta 3: Resource Library Access -->
+        <div class="grid-item">
+          <h4>Resource Library Access</h4>
+          <p>Comprehensive materials for parents and teens to navigate teenage depression.</p>
+          <a href="https://healyourmind.onrender.com/" class="button button-small">More info</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CUARTA IMAGEN: MENSAJE LARGO + VOLVER -->
+    <div class="card" style="background: #dcf2e9;">
+      <h2 style="font-size: 2.8rem;">Holaaaaa :)</h2>
+      <div style="font-size: 1.2rem; line-height: 1.7; color: #1d4233;">
+        <p>La depresión no se va de un día para otro, y está bien. No significa que seas débil, significa que estás luchando una batalla silenciosa que pocos ven. Hay días en los que levantarse cuesta, en los que sonreír parece imposible y en los que todo pierde sentido. Y aun así, aquí estás. Eso ya es un acto de valentía.</p>
+        <p>No necesitas tener todas las respuestas hoy. No necesitas “estar bien” para merecer cariño, comprensión o descanso. A veces, sanar no es correr hacia la luz, sino aprender a quedarte contigo mismo en la oscuridad sin juzgarte.</p>
+        <p>Permítete sentir, pero no permitas que tu dolor defina tu valor. Eres más que tus pensamientos tristes, más que tus miedos, más que tus recuerdos dolorosos. Aunque ahora no lo veas, tu existencia tiene impacto, tu presencia importa y tu historia aún se está escribiendo.</p>
+        <p>Avanza a tu ritmo. Un paso pequeño sigue siendo un paso. Pedir ayuda no es rendirse, es elegir vivir. Y aunque hoy el cielo esté nublado, recuerda esto: las nubes no son el final del día, solo una parte del camino.</p>
+        <p>Respira. Estás haciendo lo mejor que puedes. Y eso ya es suficiente, por ahora.</p>
+      </div>
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;" class="back-link">volver</a>
+      </div>
+      <p style="text-align: center; margin-top: 30px; opacity: 0.6;">No hay texto en este momento.</p>
+    </div>
+  </div>
+</body>
+</html>
